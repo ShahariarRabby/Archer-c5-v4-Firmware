@@ -42,6 +42,9 @@ reset
 Force Flash `firmware_flash_stoc_by_openwrt_ru.bin` by OpenWrt web interface. After reboot, you will see the tplink interface at `192.168.0.1`. 
 Then flash the latest firmware from the web interface. 
 
+## Archer C5 V4 OpenWrt support page
+https://openwrt.org/toh/tp-link/archer_c5_v4
+
 #### Check the pdf for more details. 
 
 # Thanks
