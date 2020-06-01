@@ -16,6 +16,7 @@ If everything went well, you should see a read request on your TFTP server
    <li>  power up the router and press 4 on the console to stop the boot process</li>
   <li>  enter the following commands on the router console</li>
   </ul>
+  
  ```
  tftp 0x80060000 test.bin
  erase tplink 0x20000 0x7a0000
@@ -24,8 +25,10 @@ If everything went well, you should see a read request on your TFTP server
 ```
 
  ### Stuck at bootloop
-     * Setup everything the same as a serial connection. 
-     * enter the following commands on the router console
+ <ul>
+     <li>  Setup everything the same as a serial connection. </li> 
+     <li>  enter the following commands on the router console</li> 
+ </ul>
  
 ```
 erase tplink 0x20000 0x7a0000
